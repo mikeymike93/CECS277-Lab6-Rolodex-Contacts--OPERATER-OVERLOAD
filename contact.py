@@ -62,6 +62,8 @@ class Contact:
         """
 
         #format the contact on multiple lines for displaying to the user
+        # NOTE: i could just do \n after each one that need to be seperated just for the displaying methods
+        #all f" does on each line is for readability, all it does is add it so its not doing anything special
         return (f"{self.first_name} {self.last_name}\n"
                 f"{self.phone}\n"
                 f"{self.address}\n"
@@ -77,5 +79,6 @@ class Contact:
         """
 
         #format the contact as comma seperated data for addresses.txt 
+        #NOTE: similar to above, i don't have to split it with another f" its just for readability, it can fit on the same line.
         return (f"{self.first_name},{self.last_name},{self.phone},"
                 f"{self.address},{self.city},{self.zip}")
