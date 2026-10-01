@@ -128,7 +128,7 @@ def main():
             number = 1
             #number and display each contact in sorted order 
             for contact in contacts:
-                print(f"{number}. {str.(contact)}")
+                print(f"{number}. {str(contact)}")
                 number += 1
 
         #add a new contact
