@@ -125,9 +125,11 @@ def main():
         if choice == 1:
             print(f"Number of contacts: {len(contacts)}")
 
+            number = 1
             #number and display each contact in sorted order 
-            for number, contact in enumerate(contacts, 1):
-                print(f"{number}. {str(contact)}")
+            for contact in contacts:
+                print(f"{number}. {str.(contact)}")
+                number += 1
 
         #add a new contact
         elif choice == 2:
